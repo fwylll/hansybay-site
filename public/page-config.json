@@ -497,11 +497,11 @@
     "products": {
       "sections": [
         {
-          "type": "pageHero",
           "bgColor": "#1A1A2E",
           "bgImage": "/hansybay-images/Roller_Shoes_1_1781156538745.png",
+          "subtitle": "Designer inline skates for every age",
           "title": "Discover Your Perfect Pair 🛼",
-          "subtitle": "Designer inline skates for every age"
+          "type": "pageHero"
         },
         {
           "enabled": true,
@@ -522,6 +522,12 @@
               "value": "purple"
             }
           ],
+          "layout": "grid",
+          "productIds": [
+            "B0DTG8B3FN",
+            "NEW-1781774981389",
+            "NEW-1781953606102"
+          ],
           "sortOptions": [
             {
               "label": "Featured",
@@ -541,13 +547,7 @@
             }
           ],
           "title": "Filter & Sort",
-          "type": "productFilter",
-          "layout": "grid",
-          "productIds": [
-            "B0DTG8B3FN",
-            "NEW-1781774981389",
-            "NEW-1781953606102"
-          ]
+          "type": "productFilter"
         },
         {
           "tags": [
