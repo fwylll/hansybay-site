@@ -12,12 +12,14 @@
       {
         "links": [
           {
+            "href": "/products/",
             "label": "All Products",
             "url": "/products/"
           },
           {
+            "href": "/products/",
             "label": "LED Roller Shoes",
-            "url": "/products/?filter=led"
+            "url": "/products/"
           }
         ],
         "title": "SHOP"
@@ -25,14 +27,17 @@
       {
         "links": [
           {
+            "href": "/brand-story/",
             "label": "Our Story",
             "url": "/brand-story/"
           },
           {
+            "href": "/videos/",
             "label": "Videos",
             "url": "/videos/"
           },
           {
+            "href": "/activities/",
             "label": "Community",
             "url": "/activities/"
           }
@@ -42,20 +47,24 @@
       {
         "links": [
           {
+            "href": "/about/",
             "label": "About",
             "url": "/about/"
           },
           {
+            "href": "/contact/",
             "label": "Contact",
             "url": "/contact/"
           },
           {
+            "href": "/privacy/",
             "label": "Privacy Policy",
             "url": "/privacy/"
           },
           {
+            "href": "/faq/",
             "label": "FAQ",
-            "url": "#"
+            "url": "/faq/"
           }
         ],
         "title": "SUPPORT"
@@ -69,26 +78,32 @@
     "ctaUrl": "/products/",
     "links": [
       {
-        "label": "Shop",
+        "href": "/products/",
+        "label": "Products",
         "url": "/products/"
       },
       {
-        "label": "Our Story",
+        "href": "/brand-story/",
+        "label": "Brand Story",
         "url": "/brand-story/"
       },
       {
+        "href": "/videos/",
         "label": "Videos",
         "url": "/videos/"
       },
       {
-        "label": "Community",
+        "href": "/activities/",
+        "label": "Activities",
         "url": "/activities/"
       },
       {
+        "href": "/about/",
         "label": "About",
         "url": "/about/"
       },
       {
+        "href": "/contact/",
         "label": "Contact",
         "url": "/contact/"
       }
@@ -98,48 +113,33 @@
     "about": {
       "sections": [
         {
+          "bgColor": "#1A1A2E",
           "bgImage": "/hansybay-images/Roller_Shoes_1_1781156538745.png",
-          "enabled": true,
-          "heading": "About HANSYBAY",
-          "subtitle": "Building safe, fun roller shoes since day one",
+          "subtitle": "Learn about HANSYBAY",
+          "title": "About Us",
           "type": "pageHero"
         },
         {
-          "enabled": true,
-          "extra": "Founded by parents and industrial designers, we have served over 50,000 families worldwide. Our products are rigorously tested to meet European safety standards.",
+          "extra": "",
           "features": [
             {
-              "desc": "European safety standard compliance",
-              "icon": "🛡️",
-              "title": "CE EN13843 Certified"
+              "desc": "CE EN13843 certified for peace of mind",
+              "icon": "🎯",
+              "title": "Safety First"
             },
             {
-              "desc": "Grows with your child across three size increments",
-              "icon": "📏",
-              "title": "3-in-1 Adjustable"
-            },
-            {
-              "desc": "Self-powered magnetic induction, no batteries",
+              "desc": "Removable wheels and LED technology",
               "icon": "💡",
-              "title": "7-Color LED Wheels"
+              "title": "Innovation"
             },
             {
-              "desc": "Every order ships free to all 50 states",
-              "icon": "🚚",
-              "title": "Free US Shipping"
-            },
-            {
-              "desc": "Easy, hassle-free returns",
-              "icon": "🔄",
-              "title": "30-Day Returns"
-            },
-            {
-              "desc": "Trusted by parents across the US",
-              "icon": "❤️",
-              "title": "50K+ Families"
+              "desc": "Building a global community of young skaters",
+              "icon": "🌍",
+              "title": "Community"
             }
           ],
-          "mission": "At HANSYBAY, we believe every child deserves the joy of movement. We design and manufacture CE EN13843 certified roller shoes with 7-color LED light-up wheels that grow with your child through an adjustable 3-in-1 sizing system. Safety, comfort, and pure fun.",
+          "mission": "Our mission is to create safe, fun, and stylish roller shoes that inspire kids to be active and express themselves.",
+          "title": "About HANSYBAY",
           "type": "aboutContent"
         }
       ]
@@ -147,49 +147,32 @@
     "activities": {
       "sections": [
         {
-          "bgColor": "#1a1a2e",
+          "bgColor": "#1A1A2E",
           "bgImage": "/hansybay-images/Roller_Shoes_1_1781156538745.png",
-          "enabled": true,
-          "heading": "Community",
-          "subtitle": "Get involved, connect, and share the roll",
+          "subtitle": "Join the HANSYBAY community",
+          "title": "Activities",
           "type": "pageHero"
         },
         {
           "cards": [
             {
-              "description": "Post your best trick video and win a free pair! Open to all HANSYBAY kids.",
-              "icon": "🏆",
-              "title": "Summer Skate Challenge 2026"
+              "description": "Join local skating events",
+              "icon": "🎉",
+              "title": "Skate Meetups"
             },
             {
-              "description": "Submit your color combinations and patterns. Winner gets their design produced.",
-              "icon": "🎨",
-              "title": "Design Your Dream Skates"
-            },
-            {
-              "description": "Share your favorite place to skate — parks, driveways, skate rinks — win prizes.",
+              "description": "Share your best moments",
               "icon": "📸",
-              "title": "Photo Contest: Best Skate Spot"
+              "title": "Photo Contest"
             },
             {
-              "description": "Monthly meet-ups across 12 cities. Connect with other skating families near you.",
-              "icon": "❤️",
-              "title": "Family Skate Day"
-            },
-            {
-              "description": "Free video tutorials from beginner to advanced tricks. New lessons every week.",
-              "icon": "🎓",
-              "title": "Learn to Skate Series"
-            },
-            {
-              "description": "Become a HANSYBAY ambassador and earn rewards for sharing your skating journey.",
-              "icon": "🌟",
-              "title": "Ambassador Program"
+              "description": "Win exclusive HANSYBAY gear",
+              "icon": "🎁",
+              "title": "Giveaways"
             }
           ],
-          "enabled": true,
-          "subtitle": "Join the HANSYBAY community of skaters and families",
-          "title": "Get Involved",
+          "subtitle": "Join our activities",
+          "title": "Community Events",
           "type": "contentCards"
         }
       ]
@@ -197,33 +180,17 @@
     "brand-story": {
       "sections": [
         {
-          "bgColor": "#1a1a2e",
+          "bgColor": "#1A1A2E",
           "bgImage": "/hansybay-images/Roller_Shoes_1_1781156538745.png",
-          "enabled": true,
-          "heading": "Our Story",
-          "subtitle": "From sketch to skate — the HANSYBAY journey",
+          "subtitle": "The journey behind HANSYBAY",
+          "title": "Our Story",
           "type": "pageHero"
         },
         {
-          "enabled": true,
+          "content": "HANSYBAY was founded with a simple belief: every child deserves the freedom to move, play, and express themselves. Our designer roller shoes combine cutting-edge safety technology with bold, playful designs that kids love and parents trust. From removable wheels to 7-color LED lights, every detail is engineered for joy.",
           "image": "",
-          "stats": [
-            {
-              "label": "Happy Families",
-              "num": "50K+"
-            },
-            {
-              "label": "Avg Rating",
-              "num": "4.8"
-            },
-            {
-              "label": "Easy Returns",
-              "num": "30-Day"
-            }
-          ],
-          "story": "HANSYBAY was born from a simple belief: every child deserves to feel the joy of movement. Founded by a team of parents and designers, we set out to create the safest, most fun roller shoes in the world.",
-          "subtitle": "FROM DREAM TO REALITY",
-          "title": "Our Story",
+          "subtitle": "OUR MISSION",
+          "title": "Built for Kids Who Deserve to Fly",
           "type": "brandStory"
         }
       ]
@@ -231,19 +198,20 @@
     "contact": {
       "sections": [
         {
+          "bgColor": "#1A1A2E",
           "bgImage": "/hansybay-images/Roller_Shoes_1_1781156538745.png",
-          "enabled": true,
-          "heading": "Contact Us",
-          "subtitle": "We would love to hear from you",
-          "title": "",
+          "subtitle": "We're here to help",
+          "title": "Contact Us",
           "type": "pageHero"
         },
         {
           "email": "hsb3148@163.com",
-          "enabled": true,
-          "intro": "Have questions about HANSYBAY roller shoes? Need help with sizing or your order? We are here to help.",
+          "intro": "We'd love to hear from you! Whether you have a question about sizing, shipping, or anything else, our team is ready to help.",
           "location": "CHINA",
           "outro": "We respond to all inquiries within 24 hours. For order questions, include your order number.",
+          "phone": "+1 (800) 123-4567",
+          "responseTime": "Within 24 hours on business days",
+          "title": "Get in Touch",
           "type": "contactInfo"
         }
       ]
@@ -251,48 +219,40 @@
     "faq": {
       "sections": [
         {
+          "bgColor": "#1A1A2E",
           "bgImage": "/hansybay-images/Roller_Shoes_1_1781156538745.png",
-          "enabled": true,
-          "heading": "FAQ",
-          "subtitle": "Size guide, LED care, shipping & more",
+          "subtitle": "Frequently asked questions",
+          "title": "FAQ",
           "type": "pageHero"
         },
         {
-          "enabled": true,
-          "items": [
+          "faqs": [
             {
-              "a": "Measure your child's foot length in cm. HANSYBAY roller shoes feature an adjustable 4-size system covering 3 EU sizes per pair.",
-              "q": "How do I choose the right size?"
+              "a": "Simply press the button on the heel to release the wheels. They lock securely back in place with a click.",
+              "q": "How do the removable wheels work?"
             },
             {
-              "a": "22-25 EUR = 14-16cm insole (3-6 yrs). 26-30 EUR = 16.5-19cm (7-12 yrs). 31-35 EUR = 19.5-22cm (13-16 yrs).",
-              "q": "What is the EUR to insole length chart?"
+              "a": "Yes! Our shoes are CE EN13843 certified, meeting strict European safety standards for roller sports equipment.",
+              "q": "Are HANSYBAY shoes safe?"
             },
             {
-              "a": "USB rechargeable, 1 hour full charge, 5-8 hours continuous lighting.",
-              "q": "How do I charge the LED wheels?"
+              "a": "We offer sizes for kids aged 3-16. Check our size guide for the perfect fit.",
+              "q": "What sizes are available?"
             },
             {
-              "a": "Push the release button on each wheel base. No tools required.",
-              "q": "How do I switch between skate and sneaker mode?"
+              "a": "Free US shipping typically takes 5-7 business days. Express shipping available at checkout.",
+              "q": "How long does shipping take?"
             },
             {
-              "a": "Free shipping within the United States. International shipping available.",
-              "q": "What are the shipping options and costs?"
+              "a": "Yes! We offer a 30-day return policy for unworn items in original packaging.",
+              "q": "Can I return or exchange?"
             },
             {
-              "a": "30-day easy returns. Shoes must be unworn with all accessories.",
-              "q": "What is the return policy?"
-            },
-            {
-              "a": "Yes, CE EN13843 certified with low center of gravity, easy-brake system, and adjustable buckle.",
-              "q": "Are these shoes safe for beginners?"
-            },
-            {
-              "a": "7 colors and 16 flash modes. Self-powered by magnetic induction.",
-              "q": "How many LED colors and modes are there?"
+              "a": "The LED lights are powered by motion — no charging needed! They activate when the wheels spin.",
+              "q": "How do I charge the LED lights?"
             }
           ],
+          "title": "Frequently Asked Questions",
           "type": "faqContent"
         }
       ]
@@ -301,163 +261,178 @@
       "sections": [
         {
           "bgColor": "#E91E63",
-          "enabled": true,
           "messages": [
             {
               "label": "Shop Now",
-              "text": "Auto-deploy",
+              "text": "✨ Free US Shipping on Orders Over $0 — Shop Now!",
               "url": "/products/"
-            },
-            {
-              "label": "Learn More",
-              "text": "CE EN13843 certified safety",
-              "url": "/brand-story/"
             },
             {
               "label": "Shop Now",
-              "text": "30-day easy returns",
+              "text": "New Arrivals Weekly — Shop the Latest Styles!",
+              "url": "/products/"
+            },
+            {
+              "label": "Shop Now",
+              "text": "Join the HANSYBAY Family Today!",
               "url": "/products/"
             }
           ],
-          "title": "",
+          "textColor": "#fff",
           "type": "promoBar"
         },
         {
-          "enabled": true,
           "slides": [
             {
-              "ctaPrimaryUrl": "/products/",
-              "image": "/hansybay-images/Roller_Shoes_pink_1780899836222.png"
+              "bgColor": "#1A1A2E",
+              "ctaText": "SHOP NOW",
+              "ctaUrl": "/products/",
+              "image": "/hansybay-images/Roller_Shoes_1_1781156538745.png",
+              "subtitle": "Removable Wheels · 7-Color LED · CE EN13843 Certified",
+              "textColor": "#fff",
+              "title": "Designer Roller Shoes"
             },
             {
-              "ctaPrimaryUrl": "/products/",
-              "image": "/hansybay-images/Roller_Shoes_1_1781156538745.png"
+              "bgColor": "#1A1A2E",
+              "ctaText": "SHOP NOW",
+              "ctaUrl": "/products/",
+              "image": "/hansybay-images/Roller_Shoes_pink_1780899836222.png",
+              "subtitle": "Motion-activated LED lights that make skating magical",
+              "textColor": "#fff",
+              "title": "Light Up Every Step"
             }
           ],
           "type": "hero"
         },
         {
-          "enabled": true,
           "items": [
             {
-              "color": "#2E8B57",
-              "icon": "🛡️",
-              "text": "CE EN13843 Certified"
-            },
-            {
-              "color": "#E91E63",
               "icon": "🚚",
-              "text": "Free U.S. Shipping"
+              "text": "Free US Shipping"
             },
             {
-              "color": "#4A90E2",
-              "icon": "🔄",
-              "text": "30-Day Easy Returns"
+              "icon": "🔒",
+              "text": "Secure Checkout"
+            },
+            {
+              "icon": "💬",
+              "text": "24/7 Support"
+            },
+            {
+              "icon": "⭐",
+              "text": "Top Rated"
             }
           ],
           "type": "trustBar"
         },
         {
-          "enabled": true,
+          "maxItems": 4,
+          "productIds": [
+            "B0DTG8B3FN",
+            "NEW-1781774981389",
+            "NEW-1781953606102"
+          ],
+          "subtitle": "",
+          "title": "Best Sellers",
+          "type": "hotProducts"
+        },
+        {
           "groups": [
             {
-              "desc": "22-25 EUR · Auto-Lock Wheels",
-              "label": "Toddler (3-6)",
-              "url": "/products/?age=toddler"
+              "age": "3-5",
+              "emoji": "👶",
+              "size": "S"
             },
             {
-              "desc": "26-30 EUR · LED Flash Wheels",
-              "label": "Junior (7-12)",
-              "url": "/products/?age=junior"
+              "age": "5-8",
+              "emoji": "🧒",
+              "size": "M"
             },
             {
-              "desc": "31-35 EUR · Pro-Grade Bearings",
-              "label": "Teen (13-16)",
-              "url": "/products/?age=teen"
+              "age": "8-16",
+              "emoji": "👦",
+              "size": "L"
             }
           ],
-          "subtitle": "3 adjustable sizes grow with your child",
-          "title": "Find Their Perfect Fit",
+          "title": "Find The Perfect Fit",
           "type": "ageGroups"
         },
         {
-          "description": "Our patented 3-in-1 sizing system adjusts up to 3 sizes. One pair lasts years.",
-          "enabled": true,
+          "description": "Patented 3-in-1 adjustable sizing system. One pair of skates adapts as your child grows — no need to buy new skates every season.",
+          "image": "/hansybay-images/Roller_Shoes_1_1781156538745.png",
           "label": "Technology",
           "steps": [
             {
-              "desc": "Perfect for first-time skaters",
-              "icon": "👟",
-              "title": "Size 1: 22-25 EUR"
+              "desc": "Push button, slide shell forward. Perfect for beginners learning balance.",
+              "icon": "👶",
+              "title": "22-25 EUR"
             },
             {
-              "desc": "One-click adjustment for growing feet",
-              "icon": "📏",
-              "title": "Size 2: 26-30 EUR"
+              "desc": "One-click adjustment. Growing confidence at the skate park.",
+              "icon": "🧒",
+              "title": "26-30 EUR"
             },
             {
-              "desc": "Full-size mode for confident skaters",
-              "icon": "🛼",
-              "title": "Size 3: 31-35 EUR"
+              "desc": "Full extension. For confident skaters ready to cruise.",
+              "icon": "😎",
+              "title": "31-35 EUR"
             }
           ],
           "title": "Grows With Your Child",
           "type": "growthSystem"
         },
         {
-          "enabled": true,
-          "subtitle": "Watch real kids skate, learn, and grow with confidence",
+          "poster": "/hansybay-images/Roller_Shoes_pink_1780899836222.png",
+          "subtitle": "Watch real kids skate, learn, and grow with confidence.",
           "title": "See HANSYBAY in Action",
-          "type": "video"
+          "type": "video",
+          "url": ""
         },
         {
-          "enabled": true,
           "reviews": [
             {
               "name": "Sarah M.",
-              "stars": 5,
-              "text": "My 6-year-old learned to skate in 3 days. The LED lights are her favorite part — they flash in 7 colors!",
+              "rating": 5,
+              "text": "My daughter loves these! The LED lights are amazing and the wheels are super smooth.",
               "verified": true
             },
             {
-              "name": "Mike D.",
-              "stars": 5,
-              "text": "Best purchase this year. Removable wheels mean they work as regular shoes too. Game changer.",
+              "name": "James K.",
+              "rating": 5,
+              "text": "Best purchase this year. My son wears them everywhere and the quality is outstanding.",
               "verified": true
             },
             {
-              "name": "Jennifer L.",
-              "stars": 5,
-              "text": "Grew 2 sizes and the adjustable fit still works perfectly. Worth every penny for safety and fun.",
+              "name": "Emily R.",
+              "rating": 5,
+              "text": "Great customer service and fast shipping. The shoes fit perfectly and look fantastic.",
               "verified": true
             }
           ],
-          "subtitle": "Join thousands of happy families",
-          "title": "Parents Love HANSYBAY",
+          "title": "What Parents Say",
           "type": "reviews"
         },
         {
-          "enabled": true,
-          "posts": [
+          "cards": [
             {
-              "excerpt": "Helmet, pads, and proper fit — what every parent needs to know before their child's first skate.",
-              "title": "Safety First: 5 Essential Gear Tips",
-              "url": "#"
+              "description": "Transform from roller shoes to regular sneakers in seconds",
+              "icon": "🛼",
+              "title": "Removable Wheels"
             },
             {
-              "excerpt": "Self-powered magnetic induction. No batteries, no charging. Just roll and glow.",
-              "title": "LED Wheel Tech Explained",
-              "url": "#"
+              "description": "Motion-activated lights that make every step magical",
+              "icon": "💡",
+              "title": "7-Color LED"
             },
             {
-              "excerpt": "A progressive 7-day plan from standing to cruising. Patience + the right gear = success.",
-              "title": "How to Teach a Child to Skate",
-              "url": "#"
+              "description": "European safety certified for worry-free skating",
+              "icon": "✅",
+              "title": "CE EN13843"
             }
           ],
-          "subtitle": "Tips, guides, and stories from the HANSYBAY community",
-          "title": "Rolling Knowledge",
-          "type": "blog"
+          "subtitle": "",
+          "title": "Why Choose HANSYBAY",
+          "type": "contentCards"
         }
       ]
     },
@@ -565,50 +540,18 @@
     "videos": {
       "sections": [
         {
-          "bgColor": "#1a1a2e",
+          "bgColor": "#1A1A2E",
           "bgImage": "/hansybay-images/Roller_Shoes_1_1781156538745.png",
-          "enabled": true,
-          "heading": "Watch & Learn",
-          "subtitle": "Unboxing, demos, and real parent reviews",
+          "subtitle": "See HANSYBAY in action",
+          "title": "Videos",
           "type": "pageHero"
         },
         {
-          "enabled": true,
-          "items": [
-            {
-              "description": "What's inside the box? LED lights, removable wheels, adjustable sizing system.",
-              "title": "Unboxing & First Look",
-              "type": "video"
-            },
-            {
-              "description": "Step-by-step guide on using the 3-in-1 sizing system for growing kids.",
-              "title": "How to Adjust Sizes",
-              "type": "tutorial"
-            },
-            {
-              "description": "Watch real kids try HANSYBAY skates for the first time — pure joy!",
-              "title": "Kids First Skate Session",
-              "type": "video"
-            },
-            {
-              "description": "Honest long-term review from a mom of two — durability, safety, and fun factor.",
-              "title": "Parent Review: 3 Months In",
-              "type": "review"
-            },
-            {
-              "description": "How HANSYBAY stacks up vs traditional skates on ankle support and braking.",
-              "title": "Safety Comparison",
-              "type": "review"
-            },
-            {
-              "description": "Keep your skates rolling smooth — cleaning bearings and wheel rotation guide.",
-              "title": "Maintenance Tips",
-              "type": "tutorial"
-            }
-          ],
-          "subtitle": "Unboxing, demos, and real parent reviews",
-          "title": "Watch & Learn",
-          "type": "media"
+          "image": "",
+          "subtitle": "Watch our roller shoes in action",
+          "title": "Product Demo",
+          "type": "video",
+          "url": ""
         }
       ]
     }
@@ -617,40 +560,40 @@
     "brandName": "HANSYBAY",
     "pages": {
       "about": {
-        "description": "Learn about HANSYBAY — a CE EN13843 certified kids roller shoe brand. 50K+ families trust our adjustable, LED light-up inline skates for ages 3-16.",
-        "title": "About HANSYBAY — CE Certified Kids Roller Shoes Brand"
+        "description": "Learn about HANSYBAY's mission to create safe, fun roller shoes.",
+        "title": "About Us - HANSYBAY"
       },
       "activities": {
-        "description": "Join the HANSYBAY community of skating families. Challenges, skating journeys, and connections with parents.",
-        "title": "Community — HANSYBAY | Join Our Kids Skating Community"
+        "description": "Join HANSYBAY community activities and events.",
+        "title": "Activities - HANSYBAY"
       },
       "brand-story": {
-        "description": "Learn how HANSYBAY started — designing the safest, most fun LED roller shoes for kids aged 3-16.",
-        "title": "Our Story — HANSYBAY | Designer Kids Roller Shoes Brand"
+        "description": "Discover the story behind HANSYBAY designer roller shoes.",
+        "title": "Brand Story - HANSYBAY"
       },
       "contact": {
-        "description": "Contact HANSYBAY customer support. Questions about sizing, orders, or our CE certified LED roller shoes?",
-        "title": "Contact HANSYBAY — Get Help with Your Roller Shoes"
+        "description": "Get in touch. Help with sizing, shipping, or questions.",
+        "title": "Contact Us - HANSYBAY"
       },
       "faq": {
-        "description": "Frequently asked questions about HANSYBAY kids roller shoes — sizing, LED wheels, adjustable fit, shipping, returns. Find your answers here.",
-        "title": "FAQ — HANSYBAY | Kids Roller Shoes Size Guide & Help"
+        "description": "FAQ about HANSYBAY roller shoes. Shipping, sizing, and more.",
+        "title": "FAQ - HANSYBAY"
       },
       "home": {
-        "description": "Discover HANSYBAY designer roller shoes with removable wheels, 7-color LED lights, and adjustable sizing. CE EN13843 certified for kids 3-16. Free US shipping.",
-        "title": "HANSYBAY—Designer Roller Shoes for Kids | Dazzling Sneakers With Wheels"
+        "description": "Shop HANSYBAY designer roller shoes with removable wheels and 7-color LED lights.",
+        "title": "HANSYBAY - Designer Roller Shoes for Kids"
       },
       "privacy": {
-        "description": "HANSYBAY privacy policy — learn how we collect, use, and protect your personal information when you contact us about our CE certified kids roller shoes.",
-        "title": "Privacy Policy — HANSYBAY | Kids Roller Shoes Data Protection"
+        "description": "How we collect, use, and protect your information.",
+        "title": "Privacy Policy - HANSYBAY"
       },
       "products": {
-        "description": "Browse all HANSYBAY designer roller shoes with LED light-up wheels. CE EN13843 certified kids inline skates. Free US shipping on all orders.",
-        "title": "Shop All HANSYBAY Roller Shoes — LED Light-Up Kids Inline Skates"
+        "description": "Browse our complete collection of designer roller shoes.",
+        "title": "All Products - HANSYBAY"
       },
       "videos": {
-        "description": "Watch HANSYBAY kids roller shoes in action — unboxing, demos, parent reviews, and skating tutorials.",
-        "title": "Videos — HANSYBAY | Watch LED Roller Shoes for Kids in Action"
+        "description": "Watch HANSYBAY roller shoes in action.",
+        "title": "Videos - HANSYBAY"
       }
     }
   }
