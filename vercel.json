@@ -9,12 +9,21 @@
     },
     {
       "source": "/(.*)",
-      "has": [{ "type": "host", "value": "www.hansybay.com" }],
+      "has": [
+        {
+          "type": "host",
+          "value": "www.hansybay.com"
+        }
+      ],
       "destination": "https://hansybay.com/$1",
       "permanent": true
     }
   ],
   "rewrites": [
+    {
+      "source": "/hansybay-images/(.*)",
+      "destination": "http://119.29.230.54/hansybay-images/$1"
+    },
     {
       "source": "/api/contact",
       "destination": "http://119.29.230.54/hansybay-api/api/contact/hansybay"
