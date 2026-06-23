@@ -5,3 +5,4 @@ gimkounn-images/
 *.jpg
 media-list.json
 contact-submissions.json
+.vercel
